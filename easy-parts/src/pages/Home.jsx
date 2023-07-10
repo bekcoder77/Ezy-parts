@@ -1,37 +1,36 @@
 import React, { useState } from "react";
 import Cards from "./Cards";
+import {  MdLocationSearching, MdAvTimer } from "react-icons/md";
+
 
 function Home() {
-
-    const [data,setData] = useState([
-        {
-            img: "./assets/img.png",
-            price:"12 500 тг",
-            info: "RENAULT Корпус фильтра масляного (с радиатором)",
-          },
-          {
-            img: "./assets/img.png",
-            price:"12 500 тг",
-            info: "RENAULT Корпус фильтра масляного (с радиатором)",
-          },
-          {
-            img: "./assets/img.png",
-            price:"12 500 тг",
-            info: "RENAULT Корпус фильтра масляного (с радиатором)",
-          },
-          {
-            img: "./assets/img.png",
-            price:"12 500 тг",
-            info: "RENAULT Корпус фильтра масляного (с радиатором)",
-          },
-          {
-            img: "./assets/img.png",
-            price:"12 500 тг",
-            info: "RENAULT Корпус фильтра масляного (с радиатором)",
-          },
-          
-       
-    ])
+  const [data, setData] = useState([
+    {
+      img: "./assets/img.png",
+      price: "12 500 тг",
+      info: "RENAULT Корпус фильтра масляного (с радиатором)",
+    },
+    {
+      img: "./assets/img.png",
+      price: "12 500 тг",
+      info: "RENAULT Корпус фильтра масляного (с радиатором)",
+    },
+    {
+      img: "./assets/img.png",
+      price: "12 500 тг",
+      info: "RENAULT Корпус фильтра масляного (с радиатором)",
+    },
+    {
+      img: "./assets/img.png",
+      price: "12 500 тг",
+      info: "RENAULT Корпус фильтра масляного (с радиатором)",
+    },
+    {
+      img: "./assets/img.png",
+      price: "12 500 тг",
+      info: "RENAULT Корпус фильтра масляного (с радиатором)",
+    },
+  ]);
 
   return (
     <div>
@@ -52,49 +51,49 @@ function Home() {
                 <select>
                   <option value="2021">Год выпуска</option>
                   <option value="2021">2021</option>
-                  <option value="2021">2022</option>
+                  <option value="2021">2020</option>
                   <option value="2021">2023</option>
                 </select>
                 <select>
                   <option value="2021">Год выпуска</option>
                   <option value="2021">2021</option>
-                  <option value="2021">2022</option>
+                  <option value="2021">2020</option>
                   <option value="2021">2023</option>
                 </select>
                 <select>
                   <option value="2021">Год выпуска</option>
                   <option value="2021">2021</option>
-                  <option value="2021">2022</option>
+                  <option value="2021">2020</option>
                   <option value="2021">2023</option>
                 </select>
                 <select>
                   <option value="2021">Год выпуска</option>
                   <option value="2021">2021</option>
-                  <option value="2021">2022</option>
+                  <option value="2021">2020</option>
                   <option value="2021">2023</option>
                 </select>
               </div>
             </div>
             <div className="hero_c flex items-center justify-center gap-5 mt-7 absolute top-[600px]">
-              <div className="card bg-[#FFFFFF] w-[22%] py-5 rounded-lg">
+              <div className="card bg-[#FFFFFF] w-[20%] py-5 rounded-lg">
                 <img className=" m-auto" src="./assets/h-1.png" alt="" />
                 <p className="text-[18px] mt-4 font-bold text-[#333333] text-center">
                   Выбирайте по цене, скорости доставки или расположению
                 </p>
               </div>
-              <div className="card bg-[#FFFFFF] w-[22%] py-5 rounded-lg">
+              <div className="card bg-[#FFFFFF] w-[20%] py-5 rounded-lg">
                 <img className=" m-auto" src="./assets/h-1.png" alt="" />
                 <p className="text-[18px] mt-4 font-bold text-[#333333] text-center">
                   Выбирайте по цене, скорости доставки или расположению
                 </p>
               </div>
-              <div className="card bg-[#FFFFFF] w-[22%] py-5 rounded-lg">
+              <div className="card bg-[#FFFFFF] w-[20%] py-5 rounded-lg">
                 <img className=" m-auto" src="./assets/h-1.png" alt="" />
                 <p className="text-[18px] mt-4 font-bold text-[#333333] text-center">
                   Выбирайте по цене, скорости доставки или расположению
                 </p>
               </div>
-              <div className="card bg-[#FFFFFF] w-[22%] py-5 rounded-lg">
+              <div className="card bg-[#FFFFFF] w-[20%] py-5 rounded-lg">
                 <img className=" m-auto" src="./assets/h-1.png" alt="" />
                 <p className="text-[18px] mt-4 font-bold text-[#333333] text-center">
                   Выбирайте по цене, скорости доставки или расположению
@@ -102,22 +101,140 @@ function Home() {
               </div>
             </div>
           </div>
-        <section className="px-20">
-        <div className="title text-[#18A7A7] font-semiboldbold text-5xl mt-[200px]">
-            Хиты продаж
+          <section className="px-20">
+            <div className="title text-[#18A7A7] font-semiboldbold text-5xl mt-[150px]">
+              Хиты продаж
             </div>
             <div className="cards flex mt-16 gap-5">
-                {data.map((item)=>{
-                    return <Cards/>
-                })}
-          
+              {data.map((item) => {
+                return <Cards />;
+              })}
             </div>
-        </section>
-        <section className="px-20">
-        <div className="title text-[#18A7A7] font-semiboldbold text-5xl mt-[100px]">
-        Необходимое для каждого авто 
+          </section>
+          <section className="px-20">
+            <div className="title text-[#18A7A7] font-semiboldbold text-5xl mt-[100px]">
+              Необходимое для каждого авто
             </div>
-        </section>
+            <div className="zapchasti flex justify-center gap-5 mt-20">
+              <div className="motors">
+                <div className="motor flex gap-6 items-center bg-[#F5F8F8] py-2 px-3 mb-5">
+                  <div className="sveci">
+                    <h1 className="font-semibold text-2xl">Свечи</h1>
+                    <p>Свечи зажигания, свечи накала</p>
+                  </div>
+                  <img src="./assets/motor.png" alt="" />
+                </div>
+                <div className="motor h-[328px] flex gap-6 items-center bg-[#F5F8F8] py-2 px-3">
+                  <div className="litr">
+                    <div className="sveci">
+                      <h1 className="font-semibold text-2xl mb-3">
+                        Моторные масла
+                      </h1>
+                      <p>Свечи зажигания, свечи накала</p>
+                    </div>
+                    <button className="btn text-[#18A7A7] font-bold py-3 mt-3 border-2 px-8 rounded-lg border-[#18A7A7]">
+                      {" "}
+                      1 л
+                    </button>{" "}
+                    <br />
+                    <button className="btn text-[#18A7A7] font-bold py-3 mt-3 border-2 px-8 rounded-lg border-[#18A7A7]">
+                      {" "}
+                      3 л
+                    </button>{" "}
+                    <br />
+                    <button className="btn text-[#18A7A7] font-bold py-3  mt-3 border-2 px-8 rounded-lg border-[#18A7A7]">
+                      {" "}
+                      5 л
+                    </button>
+                  </div>
+                  <img src="./assets/motor3.png" alt="" />
+                </div>
+                <div className="motor mt-5 flex gap-6 items-center bg-[#F5F8F8] py-2 px-3">
+                  <div className="sveci">
+                    <h1 className="font-semibold text-2xl">
+                      Кузовные запчасти
+                    </h1>
+                    <p>Свечи зажигания, свечи накала</p>
+                  </div>
+                  <img src="./assets/cat1.png" alt="" />
+                </div>
+              </div>
+              <div className="catalog">
+                <div className="motor flex gap-6 items-center bg-[#F5F8F8] py-2 px-3 mb-5">
+                  <div className="sveci">
+                    <h1 className="font-semibold text-2xl">
+                      Кузовные запчасти
+                    </h1>
+                    <p>Свечи зажигания, свечи накала</p>
+                  </div>
+                  <img src="./assets/cat2.png" alt="" />
+                </div>
+                <div className="motor flex gap-6 items-center bg-[#F5F8F8] py-2 px-3 mb-5">
+                  <div className="sveci">
+                    <h1 className="font-semibold text-2xl">
+                      Кузовные запчасти
+                    </h1>
+                    <p>Свечи зажигания, свечи накала</p>
+                  </div>
+                  <img src="./assets/cat3.png" alt="" />
+                </div>
+                <div className="motor flex gap-6 items-center bg-[#F5F8F8] py-2 px-3 mb-5">
+                  <div className="sveci">
+                    <h1 className="font-semibold text-2xl">
+                      Кузовные запчасти
+                    </h1>
+                    <p>Свечи зажигания, свечи накала</p>
+                  </div>
+                  <img src="./assets/motor2.png" alt="" />
+                </div>
+                <div className="motor flex gap-6 items-center bg-[#F5F8F8] py-2 px-3">
+                  <div className="sveci">
+                    <h1 className="font-semibold text-2xl">
+                      Кузовные запчасти
+                    </h1>
+                    <p>Свечи зажигания, свечи накала</p>
+                  </div>
+                  <img src="./assets/cat4.png" alt="" />
+                </div>
+              </div>
+              <div className="poisk">
+                <div className="motor  h-[328px]  gap-6 bg-[#18A7A7] items-center rounded-[15px] py-2 px-6 mb-5">
+                 <h1 className=" mt-10 text-2xl text-white">Поиск запчастей <br /> по VIN номеру авто</h1> <br />
+                 <div className="search w-[90%]  relative cursor-pointer">
+              <input
+                type="text"
+                class="search-i cursor-pointer text-[18px] py-3 px-2"
+                placeholder="Введите номер детали"
+              />
+              <p className="absolute top-[16px] text-[22px] text-[#867777] right-[10px]"> <MdLocationSearching/> </p>
+             <img className="absolute right-0" src="./assets/poisk.png" alt="" />
+             <img className="absolute right-[-80px] top-[70px]" src="./assets/poisk1.png" alt="" />
+            </div>
+                </div>
+
+                <div className="motor h-[328px] flex gap-6 items-center bg-[#F5F8F8] py-2 px-3">
+                  <div className="litr">
+                    <div className="sveci">
+                      <h1 className="font-semibold text-2xl mb-3">АКБ</h1>
+                      <p>Свечи зажигания, свечи накала</p>
+                    </div>
+                    <button className="btn p-[2px] font-bold text-[#18A7A7] mt-12 border-2 px-8 rounded-lg border-[#18A7A7]">
+                      {" "}
+                      Прямая <br />
+                      полярность
+                    </button>{" "}
+                    <br />
+                    <button className="btn p-[2px]  mt-3 border-2 px-8 font-bold text-[#18A7A7] rounded-lg border-[#18A7A7]">
+                      Обратная <br />
+                      полярность
+                    </button>{" "}
+                    <br />
+                  </div>
+                  <img src="./assets/poly.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </section>
         </header>
       </div>
     </div>

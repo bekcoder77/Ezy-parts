@@ -4,7 +4,7 @@ function Footer() {
   return (
     <div>
         
-        <div className="container bg-[#F7EEEC] mb-8 py-10 mt-20  ">
+        <div className="container bg-[#F7EEEC] mb-8 py-10 mt-28  ">
     <div className="title relative ">
     <h1 className='f-title text-[#18A7A7] text-center font-bold text-5xl'>Начните продавать <br /> на EZY Parts!</h1>
 <button className='btn bg-[#18A7A7] text-[white] mb-12 text-center m-auto w-[330px] flex justify-center mt-8 py-2'>СТАТЬ ПРОДАВЦОМ</button>
