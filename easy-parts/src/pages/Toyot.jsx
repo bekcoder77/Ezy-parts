@@ -1,4 +1,5 @@
 import React from 'react'
+import Stars from '../components/Stars'
 
 function Toyot({item}) {
   return (
@@ -7,7 +8,9 @@ function Toyot({item}) {
           <img className='w-[230px] mb-3 h-[140px] m-auto object-cover' src={item.img} alt="" />
           <div className="sveci">
             <p className='font-bold w-[80%] mb-3'>Колодки тормозные дисковые</p>
-            <p>Toyota Camry</p>
+          <div className="d">
+              <p className=' flex'> <Stars stars={3}/> </p>
+          </div>
             <div className="korzin flex items-center mb-2 mt-3 justify-between">
             <h1 className="  font-semibold text-2xl pt-5">{item.price}</h1>
             <img src="./assets/korzin.png" alt="" />

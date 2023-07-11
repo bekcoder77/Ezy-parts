@@ -1,6 +1,9 @@
 import React from "react";
 import { MdLocationPin, MdLocationSearching, MdAvTimer } from "react-icons/md";
 import { RxLapTimer } from "react-icons/rx";
+import { Link } from "react-router-dom";
+import Toyoto from "../pages/Toyoto";
+import Catalog from "../pages/Catalog";
 
 function Navbar() {
   return (
@@ -12,7 +15,9 @@ function Navbar() {
               {" "}
               <MdLocationPin />
             </p>{" "}
-            <span className="text-white text-xl border-b border-dotted">Алматы </span>
+            <span className="text-white text-xl border-b border-dotted">
+              Алматы{" "}
+            </span>
           </div>
           <h1 className="text-white text-[14]">
             Бесплатная доставка заказов до конца декабря!
@@ -22,7 +27,11 @@ function Navbar() {
         <nav>
           <div className="navbar flex items-center justify-between py-3 px-6 cursor-pointer">
             <div className="logo flex gap-10 items-center w-[40%] ">
-              <img src="./assets/logo.png" alt="" />
+              {/* <img src="./assets/logo.png" alt="" /> */}
+              <Link to="/">
+                {" "}
+                <img src="./assets/logo.png" alt="" />{" "}
+              </Link>
               <div className="links flex gap-5 list-none cursor-pointer">
                 <li className="link">О нас</li>
                 <li className="link">Помощь</li>
@@ -49,15 +58,25 @@ function Navbar() {
             </div>
           </div>
           <div className="katalog bg-[#F5F5F5] py-3 cursor-pointer  flex items-center justify-between gap-2 list-none px-10">
-            <li>Каталог</li>
-            <li>ТО <br /> / фильтра</li>
-            <li>Тормозная система</li>
-            <li>Двигатель <br /> / выхлоп</li>
-            <li>Подвеска <br /> / рулевое</li>
+            {/* <li>Каталог</li> */}
+            <Link to="/toyoto">Каталог</Link>
+            <Link to="/catalog">Тормозная система</Link>
+            <li>
+              Двигатель <br /> / выхлоп
+            </li>
+            <li>
+              Подвеска <br /> / рулевое
+            </li>
             <li>Коробка передач</li>
-            <li>Охлождение <br /> / отопление</li>
-            <li>Электрика <br /> / освещение</li>
-            <li>Кузов <br /> / элементы</li>
+            <li>
+              Охлождение <br /> / отопление
+            </li>
+            <li>
+              Электрика <br /> / освещение
+            </li>
+            <li>
+              Кузов <br /> / элементы
+            </li>
           </div>
         </nav>
       </div>

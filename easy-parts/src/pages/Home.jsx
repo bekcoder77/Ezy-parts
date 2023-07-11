@@ -6,27 +6,30 @@ import {  MdLocationSearching, MdAvTimer } from "react-icons/md";
 function Home() {
   const [data, setData] = useState([
     {
-      img: "./assets/img.png",
+      img: "https://avatars.mds.yandex.net/i?id=184f5decc5b25ee9b550c455c5eac4dfdf77165d-8132087-images-thumbs&n=13",
       price: "14 600 тг",
       info: "RENAULT Корпус фильтра масляного (с радиатором)",
     },
     {
-      img: "./assets/img.png",
+      img: "https://avatars.mds.yandex.net/i?id=2a0000017a100935cd00a38330d8c114c421-4346943-images-thumbs&n=13",
+
       price: "15 250 тг",
       info: "   Выбирайте по цене, скорости доставки или расположению",
     },
     {
-      img: "./assets/img.png",
+      img: "https://avatars.mds.yandex.net/i?id=6e6a191fabc4a7212c42fd7d2e567a17-5332098-images-thumbs&n=13",
+
       price: "19 540 тг",
       info: "RENAULT Корпус фильтра масляного (с радиатором)",
     },
     {
-      img: "./assets/img.png",
+      img: "https://avatars.mds.yandex.net/i?id=e138ac859ff1e12b22ca3c6b24669c8b27359958-8549420-images-thumbs&n=13",
+
       price: "17 500 тг",
-      info: "RENAULT Корпус фильтра масляного (с радиатором)",
+      info: "Свечи зажигания, свечи накала фильтра масляного",
     },
     {
-      img: "./assets/img.png",
+      img: "https://avatars.mds.yandex.net/i?id=1b4b09ac6036a3126a19afb671dd65b49054a984-7025550-images-thumbs&n=13",
       price: "16 500 тг",
       info: "RENAULT Корпус фильтра масляного (с радиатором)",
     },
