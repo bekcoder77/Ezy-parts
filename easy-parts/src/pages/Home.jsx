@@ -7,27 +7,27 @@ function Home() {
   const [data, setData] = useState([
     {
       img: "./assets/img.png",
-      price: "12 500 тг",
+      price: "14 600 тг",
       info: "RENAULT Корпус фильтра масляного (с радиатором)",
     },
     {
       img: "./assets/img.png",
-      price: "12 500 тг",
+      price: "15 250 тг",
+      info: "   Выбирайте по цене, скорости доставки или расположению",
+    },
+    {
+      img: "./assets/img.png",
+      price: "19 540 тг",
       info: "RENAULT Корпус фильтра масляного (с радиатором)",
     },
     {
       img: "./assets/img.png",
-      price: "12 500 тг",
+      price: "17 500 тг",
       info: "RENAULT Корпус фильтра масляного (с радиатором)",
     },
     {
       img: "./assets/img.png",
-      price: "12 500 тг",
-      info: "RENAULT Корпус фильтра масляного (с радиатором)",
-    },
-    {
-      img: "./assets/img.png",
-      price: "12 500 тг",
+      price: "16 500 тг",
       info: "RENAULT Корпус фильтра масляного (с радиатором)",
     },
   ]);
@@ -37,9 +37,9 @@ function Home() {
       <div className="container">
         <header>
           <div className="header ">
-            <div className="hero w-[70%] ml-[15%] border-2 py-10 mb-20 relative">
+            <div className="hero w-[70%] ml-[15%] border-2 py-4 mb-20 relative">
               <div className="title">
-                <h1 className="text-5xl text-[#333333] font-bold capitalize text-center">
+                <h1 className="text-5xl text-[#333333] mt-4 font-bold capitalize text-center">
                   подобрать детали
                 </h1>
                 <p className="text-xl mt-4 font-bold text-[#333333] text-center">
@@ -55,48 +55,53 @@ function Home() {
                   <option value="2021">2023</option>
                 </select>
                 <select>
-                  <option value="2021">Год выпуска</option>
+                  <option value="2021">Марка</option>
                   <option value="2021">2021</option>
                   <option value="2021">2020</option>
                   <option value="2021">2023</option>
                 </select>
                 <select>
-                  <option value="2021">Год выпуска</option>
+                  <option value="2021">Модель</option>
                   <option value="2021">2021</option>
                   <option value="2021">2020</option>
                   <option value="2021">2023</option>
                 </select>
                 <select>
-                  <option value="2021">Год выпуска</option>
+                  <option value="2021">Тип кузова</option>
                   <option value="2021">2021</option>
                   <option value="2021">2020</option>
                   <option value="2021">2023</option>
                 </select>
               </div>
+              <button className='btn bg-[#E11C43] rounded-[20px] text-[white] mb-12 text-center m-auto w-[280px] flex justify-center  py-2'>СТАТЬ ПРОДАВЦОМ</button>
+
             </div>
-            <div className="hero_c flex items-center justify-center gap-5 mt-7 absolute top-[600px]">
-              <div className="card bg-[#FFFFFF] w-[20%] py-5 rounded-lg">
+            <div className="hero_c flex items-center justify-center gap-5 mt-7 ml-[13%] absolute bottom-[-150px]">
+              <div className="card bg-[#FFFFFF] h-[160px] w-[24%] py-5 rounded-lg">
                 <img className=" m-auto" src="./assets/h-1.png" alt="" />
-                <p className="text-[18px] mt-4 font-bold text-[#333333] text-center">
+                <p className="text-[18px] mt-4 font-medium text-[#333333] text-center">
                   Выбирайте по цене, скорости доставки или расположению
                 </p>
               </div>
-              <div className="card bg-[#FFFFFF] w-[20%] py-5 rounded-lg">
-                <img className=" m-auto" src="./assets/h-1.png" alt="" />
-                <p className="text-[18px] mt-4 font-bold text-[#333333] text-center">
-                  Выбирайте по цене, скорости доставки или расположению
+              <div className="card bg-[#FFFFFF] h-[160px] w-[24%] py-5 rounded-lg">
+                <img className=" m-auto" src="./assets/h-2.png" alt="" />
+                <p className="text-[18px] mt-4 font-medium text-[#333333] text-center">
+                <span className="font-bold">589 837</span> <br />
+запчастей
+и масел в каталоге
                 </p>
               </div>
-              <div className="card bg-[#FFFFFF] w-[20%] py-5 rounded-lg">
-                <img className=" m-auto" src="./assets/h-1.png" alt="" />
-                <p className="text-[18px] mt-4 font-bold text-[#333333] text-center">
-                  Выбирайте по цене, скорости доставки или расположению
+              <div className="card bg-[#FFFFFF] h-[160px] w-[24%] py-5 rounded-lg">
+                <img className=" m-auto" src="./assets/h-3.png" alt="" />
+                <p className="text-[18px] mt-4 font-medium text-[#333333] text-center">
+                Средний рейтинг <br />
+продавцов <span className="font-bold">4.83 из 5</span>
                 </p>
               </div>
-              <div className="card bg-[#FFFFFF] w-[20%] py-5 rounded-lg">
+              <div className="card bg-[#FFFFFF] w-[24%] h-[150px] py-5 rounded-lg">
                 <img className=" m-auto" src="./assets/h-1.png" alt="" />
-                <p className="text-[18px] mt-4 font-bold text-[#333333] text-center">
-                  Выбирайте по цене, скорости доставки или расположению
+                <p className="text-[18px] mt-4 font-medium text-[#333333] text-center">
+                Подать объявление
                 </p>
               </div>
             </div>
@@ -107,7 +112,7 @@ function Home() {
             </div>
             <div className="cards flex mt-16 gap-5">
               {data.map((item) => {
-                return <Cards />;
+                return <Cards item = {item} />;
               })}
             </div>
           </section>
@@ -163,7 +168,7 @@ function Home() {
                 <div className="motor flex gap-6 items-center bg-[#F5F8F8] py-2 px-3 mb-5">
                   <div className="sveci">
                     <h1 className="font-semibold text-2xl">
-                      Кузовные запчасти
+                    Каталог ТО
                     </h1>
                     <p>Свечи зажигания, свечи накала</p>
                   </div>
@@ -172,7 +177,7 @@ function Home() {
                 <div className="motor flex gap-6 items-center bg-[#F5F8F8] py-2 px-3 mb-5">
                   <div className="sveci">
                     <h1 className="font-semibold text-2xl">
-                      Кузовные запчасти
+                    Каталог
                     </h1>
                     <p>Свечи зажигания, свечи накала</p>
                   </div>
@@ -181,7 +186,7 @@ function Home() {
                 <div className="motor flex gap-6 items-center bg-[#F5F8F8] py-2 px-3 mb-5">
                   <div className="sveci">
                     <h1 className="font-semibold text-2xl">
-                      Кузовные запчасти
+                    Коврики
                     </h1>
                     <p>Свечи зажигания, свечи накала</p>
                   </div>
@@ -190,7 +195,8 @@ function Home() {
                 <div className="motor flex gap-6 items-center bg-[#F5F8F8] py-2 px-3">
                   <div className="sveci">
                     <h1 className="font-semibold text-2xl">
-                      Кузовные запчасти
+                    Трансмиссионные
+масла
                     </h1>
                     <p>Свечи зажигания, свечи накала</p>
                   </div>

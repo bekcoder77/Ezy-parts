@@ -6,7 +6,7 @@ function Navbar() {
   return (
     <div>
       <div className="container ">
-        <div className="city bg-[#3F3F3F] h-14 flex px-10 items-center justify-between ">
+        <div className="city bg-[#3F3F3F] h-14 flex px-10 items-center justify-between cursor-pointer ">
           <div className="al flex items-center gap-2">
             <p className="text-white text-2xl">
               {" "}
@@ -48,7 +48,7 @@ function Navbar() {
               <img src="./assets/user.png" alt="" />
             </div>
           </div>
-          <div className="katalog bg-[#F5F5F5] py-3  flex items-center justify-between gap-2 list-none px-10">
+          <div className="katalog bg-[#F5F5F5] py-3 cursor-pointer  flex items-center justify-between gap-2 list-none px-10">
             <li>Каталог</li>
             <li>ТО <br /> / фильтра</li>
             <li>Тормозная система</li>
