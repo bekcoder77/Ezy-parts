@@ -2,6 +2,10 @@ import React from 'react'
 import Stars from '../components/Stars'
 
 function Toyot({item}) {
+
+  // const random = Math.floor(Math.random() * 6);
+  const random = (Math.random() * 5);
+
   return (
     <div>
          <div className="kolodca  gap-6 items-center bg-[#E9F7F7] py-2 px-3 mb-5 cursor-pointer">
@@ -9,7 +13,7 @@ function Toyot({item}) {
           <div className="sveci">
             <p className='font-bold w-[80%] mb-3'>Колодки тормозные дисковые</p>
           <div className="d">
-              <p className=' flex'> <Stars stars={3}/> </p>
+              <p className=' flex'> <Stars stars={random}/> </p>
           </div>
             <div className="korzin flex items-center mb-2 mt-3 justify-between">
             <h1 className="  font-semibold text-2xl pt-5">{item.price}</h1>
