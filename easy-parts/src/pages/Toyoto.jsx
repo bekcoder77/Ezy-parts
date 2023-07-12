@@ -128,61 +128,95 @@ function Toyoto() {
               <option value="2021">Paris</option>
             </select>
             <div className="chesk  flex gap-5">
-          <input className="text-2xl  cursor-pointer mt-3 w-[20px]" type="checkbox" /> 
-          <p className="mt-8">  Доставка из других <br /> регионов</p>
-          </div>
-          <div className="title text-xl mt-6 font-bold text-[#333333] " >
-          Производитель
-          </div>
-          <div className="chesk  flex gap-5 mt-3">
-          <input className="text-2xl  cursor-pointer mt-4 w-[20px]" type="checkbox" /> 
-          <p className="mt-4">  DENSO</p>
-          </div>
-          <div className="chesk  flex gap-5 ">
-          <input className="text-2xl  cursor-pointer mt-4 w-[20px]" type="checkbox" /> 
-          <p className="mt-4">  FEBI</p>
-          </div>
-          <div className="chesk  flex gap-5 ">
-          <input className="text-2xl  cursor-pointer mt-4 w-[20px]" type="checkbox" /> 
-          <p className="mt-4">  NISSAN</p>
-          </div>
-          <div className="chesk  flex gap-5">
-          <input className="text-2xl  cursor-pointer mt-4 w-[20px]" type="checkbox" /> 
-          <p className="mt-4">  BMW</p>
-          </div>
+              <input
+                className="text-2xl  cursor-pointer mt-3 w-[20px]"
+                type="checkbox"
+              />
+              <p className="mt-8">
+                {" "}
+                Доставка из других <br /> регионов
+              </p>
+            </div>
+            <div className="title text-xl mt-6 font-bold text-[#333333] ">
+              Производитель
+            </div>
+            <div className="chesk  flex gap-5 mt-3">
+              <input
+                className="text-2xl  cursor-pointer mt-4 w-[20px]"
+                type="checkbox"
+              />
+              <p className="mt-4"> DENSO</p>
+            </div>
+            <div className="chesk  flex gap-5 ">
+              <input
+                className="text-2xl  cursor-pointer mt-4 w-[20px]"
+                type="checkbox"
+              />
+              <p className="mt-4"> FEBI</p>
+            </div>
+            <div className="chesk  flex gap-5 ">
+              <input
+                className="text-2xl  cursor-pointer mt-4 w-[20px]"
+                type="checkbox"
+              />
+              <p className="mt-4"> NISSAN</p>
+            </div>
+            <div className="chesk  flex gap-5">
+              <input
+                className="text-2xl  cursor-pointer mt-4 w-[20px]"
+                type="checkbox"
+              />
+              <p className="mt-4"> BMW</p>
+            </div>
 
-          <div className="title text-xl mt-6  text-[#333333]  font-bold">
-          Состяние
-
-          </div>
-          <div className="chesk  flex gap-5 mt-3">
-          <input className="text-2xl  cursor-pointer mt-4 w-[20px]" type="radio" /> 
-          <p className="mt-4">  Все</p>
-          </div>
-          <div className="chesk  flex gap-5 ">
-          <input className="text-2xl  cursor-pointer mt-4 w-[20px]" type="radio" /> 
-          <p className="mt-4">  Новые</p>
-          </div>
-          <div className="chesk  flex gap-5 ">
-          <input className="text-2xl  cursor-pointer mt-4 w-[20px]" type="radio" /> 
-          <p className="mt-4">  Б/у</p>
-          </div>
-          <div className="title text-xl mt-6 font-bold text-[#333333]" >
-          Сортировать
-
-          </div>
-          <div className="chesk  flex gap-5 mt-3">
-          <input className="text-2xl  cursor-pointer mt-4 w-[20px]" type="radio" /> 
-          <p className="mt-4">  по дате объявления</p>
-          </div>
-          <div className="chesk  flex gap-5 ">
-          <input className="text-2xl  cursor-pointer mt-4 w-[20px]" type="radio" /> 
-          <p className="mt-4">  по цене</p>
-          </div>
-          <div className="chesk  flex gap-5 ">
-          <input className="text-2xl  cursor-pointer mt-4 w-[20px]" type="radio" /> 
-          <p className="mt-4"> по рейтингу</p>
-          </div>
+            <div className="title text-xl mt-6  text-[#333333]  font-bold">
+              Состяние
+            </div>
+            <div className="chesk  flex gap-5 mt-3">
+              <input
+                className="text-2xl  cursor-pointer mt-4 w-[20px]"
+                type="radio"
+              />
+              <p className="mt-4"> Все</p>
+            </div>
+            <div className="chesk  flex gap-5 ">
+              <input
+                className="text-2xl  cursor-pointer mt-4 w-[20px]"
+                type="radio"
+              />
+              <p className="mt-4"> Новые</p>
+            </div>
+            <div className="chesk  flex gap-5 ">
+              <input
+                className="text-2xl  cursor-pointer mt-4 w-[20px]"
+                type="radio"
+              />
+              <p className="mt-4"> Б/у</p>
+            </div>
+            <div className="title text-xl mt-6 font-bold text-[#333333]">
+              Сортировать
+            </div>
+            <div className="chesk  flex gap-5 mt-3">
+              <input
+                className="text-2xl  cursor-pointer mt-4 w-[20px]"
+                type="radio"
+              />
+              <p className="mt-4"> по дате объявления</p>
+            </div>
+            <div className="chesk  flex gap-5 ">
+              <input
+                className="text-2xl  cursor-pointer mt-4 w-[20px]"
+                type="radio"
+              />
+              <p className="mt-4"> по цене</p>
+            </div>
+            <div className="chesk  flex gap-5 ">
+              <input
+                className="text-2xl  cursor-pointer mt-4 w-[20px]"
+                type="radio"
+              />
+              <p className="mt-4"> по рейтингу</p>
+            </div>
           </div>
           <div className="d">
             <div className="parent_t">

@@ -33,11 +33,21 @@ function Navbar() {
                 <img src="./assets/logo.png" alt="" />{" "}
               </Link>
               <div className="links flex gap-5 list-none cursor-pointer">
-                <li className="link  hover:text-[#1FAFAC] hover:text duration-[.3s]   hover:translate-y-[-5px] ">О нас</li>
-                <li className="link   hover:text-[#1FAFAC] hover:text duration-[.3s]  hover:translate-y-[-5px]  ">Помощь</li>
-                <li className="link   hover:text-[#1FAFAC] hover:text duration-[.3s]  hover:translate-y-[-5px]  ">Продавцу</li>
-                <li className="link   hover:text-[#1FAFAC] hover:text duration-[.3s]  hover:translate-y-[-5px]  ">Покупателю</li>
-                <li className="link   hover:text-[#1FAFAC] hover: duration-[.3s]  hover:translate-y-[-5px]  ">Контакты</li>
+                <li className="link   hover:text-[#1FAFAC] hover:text duration-[.3s]   hover:translate-y-[-5px] ">
+                  О нас
+                </li>
+                <li className="link   hover:text-[#1FAFAC] hover:text duration-[.3s]  hover:translate-y-[-5px]  ">
+                  Помощь
+                </li>
+                <li className="link   hover:text-[#1FAFAC] hover:text duration-[.3s]  hover:translate-y-[-5px]  ">
+                  Продавцу
+                </li>
+                <li className="link   hover:text-[#1FAFAC] hover:text duration-[.3s]  hover:translate-y-[-5px]  ">
+                  Покупателю
+                </li>
+                <li className="link   hover:text-[#1FAFAC] hover: duration-[.3s]  hover:translate-y-[-5px]  ">
+                  Контакты
+                </li>
               </div>
             </div>
 
@@ -59,23 +69,39 @@ function Navbar() {
           </div>
           <div className="katalog bg-[#F5F5F5] py-3 cursor-pointer  flex items-center justify-between gap-2 list-none px-10">
             {/* <li>Каталог</li> */}
-            <Link className="link  hover:text-[#1FAFAC] hover:text duration-[.3s]   hover:translate-y-[-5px] " to="/toyoto">Каталог   </Link>
-            <Link className="link  hover:text-[#1FAFAC] hover:text duration-[.3s]   hover:translate-y-[-5px] " to="/catalog">Тормозная система  </Link>
-            <Link className="link  hover:text-[#1FAFAC] hover:text duration-[.3s]   hover:translate-y-[-5px] " to="/kompleks">Двигатель <br />
-/ выхлоп   </Link>
+            <Link
+              className="link  hover:text-[#1FAFAC] hover:text duration-[.3s]   hover:translate-y-[-5px] "
+              to="/toyoto"
+            >
+              Каталог{" "}
+            </Link>
+            <Link
+              className="link  hover:text-[#1FAFAC] hover:text duration-[.3s]   hover:translate-y-[-5px] "
+              to="/catalog"
+            >
+              Тормозная система{" "}
+            </Link>
+            <Link
+              className="link  hover:text-[#1FAFAC] hover:text duration-[.3s]   hover:translate-y-[-5px] "
+              to="/kompleks"
+            >
+              Двигатель <br />/ выхлоп{" "}
+            </Link>
 
             <li className="link  hover:text-[#1FAFAC] hover:text duration-[.3s]   hover:translate-y-[-5px] ">
-              Подвеска <br /> / рулевое 
-            </li>
-            <li className="link  hover:text-[#1FAFAC] hover:text duration-[.3s]   hover:translate-y-[-5px] ">Коробка передач   </li>
-            <li className="link  hover:text-[#1FAFAC] hover:text duration-[.3s]   hover:translate-y-[-5px] ">
-              Охлождение <br /> / отопление 
+              Подвеска <br /> / рулевое
             </li>
             <li className="link  hover:text-[#1FAFAC] hover:text duration-[.3s]   hover:translate-y-[-5px] ">
-              Электрика <br /> / освещение 
+              Коробка передач{" "}
             </li>
             <li className="link  hover:text-[#1FAFAC] hover:text duration-[.3s]   hover:translate-y-[-5px] ">
-              Кузов <br /> / элементы 
+              Охлождение <br /> / отопление
+            </li>
+            <li className="link  hover:text-[#1FAFAC] hover:text duration-[.3s]   hover:translate-y-[-5px] ">
+              Электрика <br /> / освещение
+            </li>
+            <li className="link  hover:text-[#1FAFAC] hover:text duration-[.3s]   hover:translate-y-[-5px] ">
+              Кузов <br /> / элементы
             </li>
           </div>
         </nav>

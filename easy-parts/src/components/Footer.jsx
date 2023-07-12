@@ -50,16 +50,15 @@ function Footer() {
               </li>
             </div>
             <div className="right">
-            <li className="link  hover:text-[#1FAFAC] hover:text duration-[.3s]   hover:scale-[1.08] ">
-            О компании
+              <li className="link  hover:text-[#1FAFAC] hover:text duration-[.3s]   hover:scale-[1.08] ">
+                О компании
               </li>
               <li className="link   hover:text-[#1FAFAC] hover:text duration-[.3s]  hover:scale-[1.08]  ">
-              Реклама на сайте
+                Реклама на сайте
               </li>
               <li className="link   hover:text-[#1FAFAC] hover:text duration-[.3s]  hover:scale-[1.08]  ">
-              Контакты
+                Контакты
               </li>
-              
             </div>
           </div>
           <div className="social flex gap-2 mt-[-60px]">

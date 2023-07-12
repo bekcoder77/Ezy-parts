@@ -1,6 +1,6 @@
 import React from "react";
 
-function Hero({item}) {
+function Hero({ item }) {
   return (
     <div>
       <div className="kolodca flex gap-6 items-center bg-[#E9F7F7] py-2 px-3 mb-5">

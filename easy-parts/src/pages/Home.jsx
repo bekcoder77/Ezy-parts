@@ -113,13 +113,11 @@ function Home() {
               Хиты продаж
             </div>
 
-            
             <div className="cards flex mt-16 gap-5">
               {data.map((item) => {
                 return <Cards item={item} />;
               })}
             </div>
-
           </section>
           <section className="px-20">
             <div className="title text-[#18A7A7] font-semiboldbold text-5xl mt-[100px]">
@@ -229,7 +227,6 @@ function Home() {
                     />
                   </div>
                 </div>
-
                 <div className="motor h-[328px] flex gap-6 items-center bg-[#F5F8F8] py-2 px-3">
                   <div className="litr">
                     <div className="sveci">
