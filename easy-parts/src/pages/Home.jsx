@@ -36,8 +36,8 @@ function Home() {
 
   return (
     <div>
-      <div className="container">
-        <header>
+      <div className="container min-w-[100%]">
+        <header>  
           <div className="header ">
             <div className="hero w-[70%] ml-[15%] border-2 py-4 mb-20 relative">
               <div className="title">
@@ -114,10 +114,11 @@ function Home() {
             </div>
 
             <div className="cards flex mt-16 gap-5">
-              {data.map((item) => {
-                return <Cards item={item} />;
+              {data.map((item, idx) => {
+                return <Cards key={idx} item={item} />;
               })}
             </div>
+
           </section>
           <section className="px-20">
             <div className="title text-[#18A7A7] font-semiboldbold text-5xl mt-[100px]">

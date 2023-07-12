@@ -3,7 +3,7 @@ import React from "react";
 function Footer() {
   return (
     <div>
-      <div className="container bg-[#F7EEEC] mb-8 py-10 mt-28  ">
+      <div className="container bg-[#F7EEEC] mb-8 py-10 mt-28 min-w-[100%] ">
         <div className="title relative ">
           <h1 className="f-title text-[#18A7A7] text-center font-bold text-5xl">
             Начните продавать <br /> на EZY Parts!

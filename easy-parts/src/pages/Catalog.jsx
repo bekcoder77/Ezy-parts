@@ -254,7 +254,7 @@ function Catalog() {
         <div className="shina mt-4">
           {card.map((item, idx) => {
             // return <Banner key={idx} shina ={item}/>
-            return <Shina item={item} />;
+            return <Shina key={idx} item={item} />;
           })}
         </div>
         <div className="kolods mt-4">

@@ -8,7 +8,7 @@ import Catalog from "../pages/Catalog";
 function Navbar() {
   return (
     <div>
-      <div className="container ">
+      <div className="container min-w-[100%] ">
         <div className="city bg-[#3F3F3F] h-14 flex px-10 items-center justify-between cursor-pointer ">
           <div className="al flex items-center gap-2">
             <p className="text-white text-2xl">

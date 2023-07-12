@@ -51,18 +51,31 @@ function Kompleks() {
 
       <div className="btns ">
         <div className="buttons flex mt-5 gap-10 ml-5 justify-center">
-          <button className="btn hover:border-[#E11C43] border-2 duration-[.3s] text-[#333333]  rounded-md  text-center w-[450px]  py-2">
-            <Link to="/kompleks"> Продавцы</Link>
+        <Link to="/kompleks">  
+        <button className="btn hover:border-[#E11C43] border-2 duration-[.3s] text-[#333333]  rounded-md  text-center w-[450px]  py-2">
+        Продавцы
           </button>
+        
+        </Link>
+
+        <Link to="/servis"> 
           <button className="btn  duration-[.3s] hover:bg-[#18A7A7] hover:text-[#ffff] rounded-md text-[#333333] border-2 text-center  w-[450px]   py-2">
-            <Link to="/servis"> Отзывы</Link>
+          Отзывы
+
+            
           </button>
+          </Link>
+
+          <Link to="/info"> 
           <button className="btn  duration-[.3s] hover:bg-[#18A7A7] hover:text-[#ffff] rounded-md text-[#333333] border-2 text-center  w-[450px]   py-2">
-            <Link to="/info"> Характеристики</Link>
+            Характеристики
+            
           </button>
+          </Link>
+
+         
         </div>
       </div>
-
       <div className="products flex justify-center gap-20 items-center py-10 flex-wrap">
         <div className="title ">
           <h1>Happy store</h1>
@@ -70,7 +83,7 @@ function Kompleks() {
             {" "}
             <Stars stars={5} />{" "}
           </p>
-          <p>130 отзывов</p>
+          <p>246 отзывов</p>
         </div>
         <div className="info ">
           <div className="flex gap-3">
@@ -103,7 +116,7 @@ function Kompleks() {
             {" "}
             <Stars stars={4} />{" "}
           </p>
-          <p>130 отзывов</p>
+          <p>242 отзывов</p>
         </div>
         <div className="info ">
           <div className="flex gap-3">
@@ -136,7 +149,7 @@ function Kompleks() {
             {" "}
             <Stars stars={4} />{" "}
           </p>
-          <p>130 отзывов</p>
+          <p>234 отзывов</p>
         </div>
         <div className="info ">
           <div className="flex gap-3">

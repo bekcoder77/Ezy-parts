@@ -102,6 +102,8 @@ function Toyoto() {
       price: "68 811 тг",
       title: "Toyota Camry",
       info: "Колодки тормозные дисковые",
+      
+
     },
   ]);
   return (
@@ -237,11 +239,14 @@ function Toyoto() {
                 </h2>
               </div>
             </div>
+
             <div className="kolods flex flex-wrap gap-6 pt-5">
-              {kolod.map((item) => {
-                return <Toyot item={item} />;
+              {kolod.map((item,idx) => {
+                return <Toyot  key={idx} item={item} />;
               })}
+
             </div>
+
           </div>
         </div>
       </main>

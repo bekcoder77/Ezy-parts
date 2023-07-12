@@ -16,12 +16,12 @@ function App() {
     <BrowserRouter>
     <Navbar/>
     <Routes>
-    <Route path='/' element={<Home/>}/>
-    <Route path='/toyoto' element={<Toyoto/>}/>
-    <Route path='/catalog' element={<Catalog/>}/>
-    <Route path='/kompleks' element={<Kompleks/>}/>
-    <Route path='/servis' element={<Servis/>}/>
-    <Route path='/info' element={<Info/>}/>
+       <Route path='/' element={<Home/>}/>
+       <Route path='/toyoto' element={<Toyoto/>}/>
+       <Route path='/catalog' element={<Catalog/>}/>
+       <Route path='/kompleks' element={<Kompleks/>}/>
+       <Route path='/servis' element={<Servis/>}/>
+       <Route path='/info' element={<Info/>}/>
     </Routes>
     <Footer/>
     </BrowserRouter>
