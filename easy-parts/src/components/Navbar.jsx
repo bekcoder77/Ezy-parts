@@ -61,9 +61,9 @@ function Navbar() {
             {/* <li>Каталог</li> */}
             <Link className="link  hover:text-[#1FAFAC] hover:text duration-[.3s]   hover:translate-y-[-5px] " to="/toyoto">Каталог   </Link>
             <Link className="link  hover:text-[#1FAFAC] hover:text duration-[.3s]   hover:translate-y-[-5px] " to="/catalog">Тормозная система  </Link>
-            <li className="link  hover:text-[#1FAFAC] hover:text duration-[.3s]   hover:translate-y-[-5px] ">
-              Двигатель <br /> / выхлоп
-            </li>
+            <Link className="link  hover:text-[#1FAFAC] hover:text duration-[.3s]   hover:translate-y-[-5px] " to="/kompleks">Двигатель <br />
+/ выхлоп   </Link>
+
             <li className="link  hover:text-[#1FAFAC] hover:text duration-[.3s]   hover:translate-y-[-5px] ">
               Подвеска <br /> / рулевое 
             </li>

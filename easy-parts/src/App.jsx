@@ -7,6 +7,7 @@ import Home from './pages/Home'
 import Catalog from './pages/Catalog'
 import Toyoto from './pages/Toyoto'
 import {BrowserRouter,Routes, Route} from "react-router-dom"
+import Kompleks from './pages/Kompleks'
  
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
     <Route path='/' element={<Home/>}/>
     <Route path='/toyoto' element={<Toyoto/>}/>
     <Route path='/catalog' element={<Catalog/>}/>
+    <Route path='/kompleks' element={<Kompleks/>}/>
     </Routes>
     <Footer/>
     </BrowserRouter>

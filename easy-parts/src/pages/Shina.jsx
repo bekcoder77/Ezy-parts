@@ -12,7 +12,7 @@ function Shina({ item }) {
             <h1 className="font-semibold text-2xl">{item.price}</h1>
           </div>
           <p className="text-[#867777] font-medium text-[18px] pt-2">
-            б/у, 265/65/R17 Зимние шипованные 265/65/R17 состояние новых шин{" "}
+           {item.info}{" "}
           </p>
           <div className="prosmort flex items-center justify-between pt-10">
             <p>{item.almat}</p>

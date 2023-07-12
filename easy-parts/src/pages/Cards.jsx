@@ -5,7 +5,7 @@ function Cards({item}) {
   return (
    <div>
      <div>
-      <div className="card border-2 bg-[#FFFFFF] gap-10 py-5 rounded-lg w-[260px] h-[320px] ">
+      <div className="card border-2 bg-[#FFFFFF] gap-10 py-5 rounded-lg w-[260px] h-[320px] hover:translate-y-[-15px] duration-[.3s] hover:cursor-pointer ">
         <img className=" m-auto w-[200px] h-[150px]" src={item.img} alt="" />
         <h1 className="text-[#18A7A7] font-bold text-3xl ml-3 mt-6">
         {item.price}

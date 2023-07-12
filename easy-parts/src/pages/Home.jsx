@@ -49,33 +49,33 @@ function Home() {
                   стредство
                 </p>
               </div>
-              <div className="select">
-                <select>
-                  <option value="2021">Год выпуска</option>
+              <div className="select flex gap-5  py-10 px-8  ">
+                <select className="text-[#757575] w-[220px] rounded-lg  text-cente px-4 cursor-pointer">
+                  <option value="2021">Год выпуска </option>
                   <option value="2021">2021</option>
                   <option value="2021">2020</option>
                   <option value="2021">2023</option>
                 </select>
-                <select>
+                <select className="text-[#757575] py-4  w-[220px] rounded-lg  text-cente px-4 cursor-pointer">
                   <option value="2021">Марка</option>
                   <option value="2021">Alfa Romeo</option>
                   <option value="2021">Buick</option>
                   <option value="2021">BMW</option>
                 </select>
-                <select>
+                <select className="text-[#757575] py-4  w-[220px] rounded-lg  text-cente px-4 cursor-pointer">
                   <option value="2021">Модель</option>
                   <option value="2021">Elantra</option>
                   <option value="2021">Reatta</option>
                   <option value="2021">Verano</option>
                 </select>
-                <select>
+                <select className="text-[#757575] py-4  w-[220px] rounded-lg  text-cente px-4 cursor-pointerpx-15">
                   <option value="2021">Тип кузова</option>
                   <option value="2021">Закрытые</option>
                   <option value="2021">Универсал</option>
                   <option value="2021">Седан</option>
                 </select>
               </div>
-              <button className="btn bg-[#E11C43] rounded-[20px] text-[white] mb-12 text-center m-auto w-[280px] flex justify-center  py-2">
+              <button className="btn bg-[#E11C43] duration-[.3s] hover:bg-[#18A7A7] rounded-[20px] text-[white] mb-10 text-center m-auto w-[280px] flex justify-center  py-2">
                 СТАТЬ ПРОДАВЦОМ
               </button>
             </div>
@@ -112,11 +112,14 @@ function Home() {
             <div className="title text-[#18A7A7] font-semiboldbold text-5xl mt-[150px]">
               Хиты продаж
             </div>
+
+            
             <div className="cards flex mt-16 gap-5">
               {data.map((item) => {
                 return <Cards item={item} />;
               })}
             </div>
+
           </section>
           <section className="px-20">
             <div className="title text-[#18A7A7] font-semiboldbold text-5xl mt-[100px]">
@@ -139,17 +142,17 @@ function Home() {
                       </h1>
                       <p>Свечи зажигания, свечи накала</p>
                     </div>
-                    <button className="btn text-[#18A7A7] font-bold py-3 mt-3 border-2 px-8 rounded-lg border-[#18A7A7]">
+                    <button className="btn hover:text-[#18A7A7] font-bold py-3 mt-3 border-2 px-8 rounded-lg  duration-[.3s] hover:border-[#18A7A7]">
                       {" "}
                       1 л
                     </button>{" "}
                     <br />
-                    <button className="btn text-[#18A7A7] font-bold py-3 mt-3 border-2 px-8 rounded-lg border-[#18A7A7]">
+                    <button className="btn hover:text-[#18A7A7] font-bold py-3 mt-3 border-2 px-8 rounded-lg  duration-[.3s] hover:border-[#18A7A7]">
                       {" "}
                       3 л
                     </button>{" "}
                     <br />
-                    <button className="btn text-[#18A7A7] font-bold py-3  mt-3 border-2 px-8 rounded-lg border-[#18A7A7]">
+                    <button className="btn hover:text-[#18A7A7] font-bold py-3  mt-3 border-2 px-8 rounded-lg  duration-[.3s] hover:border-[#18A7A7]">
                       {" "}
                       5 л
                     </button>
@@ -233,13 +236,13 @@ function Home() {
                       <h1 className="font-semibold text-2xl mb-3">АКБ</h1>
                       <p>Свечи зажигания, свечи накала</p>
                     </div>
-                    <button className="btn p-[2px] font-bold text-[#18A7A7] mt-12 border-2 px-8 rounded-lg border-[#18A7A7]">
+                    <button className="btn p-[2px] font-bold hover:text-[#18A7A7] mt-12 border-2 px-8 rounded-lg duration-[.3s] hover:border-[#18A7A7]  ">
                       {" "}
                       Прямая <br />
                       полярность
                     </button>{" "}
                     <br />
-                    <button className="btn p-[2px]  mt-3 border-2 px-8 font-bold text-[#18A7A7] rounded-lg border-[#18A7A7]">
+                    <button className="btn p-[2px]  mt-3 border-2 px-8 font-bold hover:text-[#18A7A7] rounded-lg duration-[.3s] hover:border-[#18A7A7] ">
                       Обратная <br />
                       полярность
                     </button>{" "}

@@ -8,7 +8,7 @@ function Footer() {
           <h1 className="f-title text-[#18A7A7] text-center font-bold text-5xl">
             Начните продавать <br /> на EZY Parts!
           </h1>
-          <button className="btn bg-[#18A7A7] text-[white] mb-12 text-center m-auto w-[330px] flex justify-center mt-8 py-2">
+          <button className="btn bg-[#18A7A7] duration-[.5s] hover:bg-red-600 rounded-lg text-[white] mb-12 text-center m-auto w-[330px] flex justify-center mt-8 py-2">
             СТАТЬ ПРОДАВЦОМ
           </button>
           <img className="w-[100%] mt-5" src="./assets/footer-i.png" alt="" />
