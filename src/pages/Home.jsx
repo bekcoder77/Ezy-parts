@@ -36,10 +36,10 @@ function Home() {
 
   return (
     <div>
-      <div className="container_div">
+      <div className="container_div max-w-[1560px] m-auto">
         <header>  
           <div className="header">
-            <div className="hero container  border-2 py-4 mb-20 relative">
+            <div className="hero bg-[#bef5e6] rounded-[20px] container  border-2 py-4 mb-20 relative">
               <div className="title">
                 <h1 className="text-5xl text-[#333333] mt-4 font-bold capitalize text-center">
                   подобрать детали
@@ -50,25 +50,25 @@ function Home() {
                 </p>
               </div>
               <div className="select container justify-center m-auto flex gap-5  py-10 px-8  ">
-                <select className="text-[#757575] w-[220px] rounded-lg  text-cente px-4 cursor-pointer">
+                <select className="text-[#757575] w-[220px] outline-none rounded-lg  text-cente px-4 cursor-pointer">
                   <option value="2021">Год выпуска </option>
                   <option value="2021">2021</option>
                   <option value="2021">2020</option>
                   <option value="2021">2023</option>
                 </select>
-                <select className="text-[#757575] py-4  w-[220px] rounded-lg  text-cente px-4 cursor-pointer">
+                <select className="text-[#757575] py-4  w-[220px]  outline-none rounded-lg  text-cente px-4 cursor-pointer">
                   <option value="2021">Марка</option>
                   <option value="2021">Alfa Romeo</option>
                   <option value="2021">Buick</option>
                   <option value="2021">BMW</option>
                 </select>
-                <select className="text-[#757575] py-4  w-[220px] rounded-lg  text-cente px-4 cursor-pointer">
+                <select className="text-[#757575] py-4  w-[220px]  outline-none rounded-lg  text-cente px-4 cursor-pointer">
                   <option value="2021">Модель</option>
                   <option value="2021">Elantra</option>
                   <option value="2021">Reatta</option>
                   <option value="2021">Verano</option>
                 </select>
-                <select className="text-[#757575] py-4  w-[220px] rounded-lg  text-cente px-4 cursor-pointerpx-15">
+                <select className="text-[#757575] py-4  w-[220px]  outline-none rounded-lg  text-cente px-4 cursor-pointerpx-15">
                   <option value="2021">Тип кузова</option>
                   <option value="2021">Закрытые</option>
                   <option value="2021">Универсал</option>

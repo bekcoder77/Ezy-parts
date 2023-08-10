@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer() {
   return (
-    <div className="  bg-[#F7EEEC]">
+    <div className="max-w-[1560px] m-auto  bg-[#F7EEEC]">
       <div className=" mb-8 py-10 mt-28  ">
         <div className="title relative ">
           <h1 className="f-title text-[#18A7A7] text-center font-bold text-5xl">

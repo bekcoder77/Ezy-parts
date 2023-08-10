@@ -9,7 +9,7 @@ function Navbar() {
   return (
     <div>
       <div className="">
-        <div className=" top_navbar bg-[#3F3F3F]  ">
+        <div className=" top_navbar bg-[#3F3F3F] max-w-[1560px] m-auto  ">
           <div className="container h-14 flex items-center justify-between cursor-pointer">
           <div className="al flex items-center gap-2">
             <p className="text-white text-2xl">
@@ -69,7 +69,7 @@ function Navbar() {
               <img src="./assets/user.png" alt="" />
             </div>
           </div>
-            <section className="bg-[#F5F5F5]">
+            <section className="bg-[#F5F5F5] max-w-[1560px] m-auto">
             <div className="katalog container px-2  py-3 cursor-pointer  flex items-center justify-between gap-2 list-none ">
             {/* <li>Каталог</li> */}
             <Link
